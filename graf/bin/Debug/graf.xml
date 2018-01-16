@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl>
+  <graph id="Graph" edgeids=" true" edgemode=" directed" hypergraph=" false">
+    <node id="x1">
+      <attr name="x1">
+        <string>null</string>
+      </attr>
+    </node>
+    <node id="x2">
+      <attr name="x2">
+        <string>null</string>
+      </attr>
+    </node>
+	<node id="x3">
+      <attr name="x3">
+        <string>null</string>
+      </attr>
+    </node>
+    <node id="y1">
+      <attr name="y1">
+        <string>null</string>
+      </attr>
+    </node>
+    <node id="y2">
+      <attr name="y2">
+        <string>null</string>
+      </attr>
+    </node>
+	<node id="y3">
+      <attr name="y3">
+        <string>null</string>
+      </attr>
+    </node>
+     <edge id="e0" to="y1" from="x1" weight="3">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e1" to="y2" from="x1" weight="3">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e2" to="y3" from="x1" weight="1">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e3" to="y1" from="x2" weight="1">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e4" to="y2" from="x2" weight="4">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e5" to="y3" from="x2" weight="3">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e6" to="y1" from="x3" weight="3">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e7" to="y2" from="x3" weight="1">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e8" to="y3" from="x3" weight="4">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+  </graph>
+</gxl>

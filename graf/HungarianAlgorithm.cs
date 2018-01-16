@@ -1,4 +1,5 @@
 ﻿//////////////thx antifriz https://github.com/antifriz/hungarian-algorithm-n3/blob/master/src/HungarianAlgorithm.cs //////////////
+using System;
 using System.Collections.Generic;
 
 namespace GraphAlgorithms
@@ -133,7 +134,7 @@ namespace GraphAlgorithms
 
             #endregion
 
-            return _matchX;
+            return _matchY;
         }
 
         private void InitMatches()
@@ -222,6 +223,8 @@ namespace GraphAlgorithms
                     break;
                 }
             }
+           
+
         }
     }
 }
